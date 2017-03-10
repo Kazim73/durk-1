@@ -1,0 +1,92 @@
+<html>
+   <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+        <title>Сайт Круглова Андрея</title>			 
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="favicon_logo.ico">
+		<header>
+			<div class="logo"> 
+				<a href="Главная.html"><img src="stoplogo21.png"></a>
+			</div>	
+			<font face="Tahoma" size=4 >
+			<div class="nav_big1">
+				<div class="nav_big">
+					<nav>
+						<ul>
+							<li><a href="Главная.html">Главная</a></li>
+							<li><a href="Галерея.html">Галерея</a></li>
+							<li><a href="Обо мне.html">Обо мне</a></li>
+							<li><a href="Новости.html">Новости</a></li>
+							<li><a href="Регистрация.html">Регистрация</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			</font>
+			<font face="Arial" size=3 color="black">
+				<div class="main">
+					<div class="login_password">
+						<label for="n">Логин:   </label>
+						<input type="text" style="background: #white; border-color: #ffffff; width: 175px; height: 20px; border-radius: 4px;" id="n" />
+					</div>
+					<div class="login_password">
+					   <label for="ln">Пароль:   </label>
+					   <input type="password" style="background: #white; border-color: #ffffff; width: 175px; height: 20px; border-radius: 4px;" id="ln" />
+					</div>
+				</div>
+				<div class="main3">
+					<div>
+						<a href="enter.php" title="Войти"><img src="entry6.png" alt="Войти" /></a>
+					</div>
+				</div>
+				<div class="main3_small">
+					<div>
+						<a href="Вход.html" title="Страница входа"><img src="entry6.png" alt="Войти" /></a>
+					</div>
+				</div>
+			</font>
+		</header>
+		<hr>
+   </head>
+   <body>
+		<font face="Open Sans" size=3 ">
+		<input type="checkbox" id="nav-toggle" hidden>
+		<nav class="nav">
+			<label for="nav-toggle" class="nav-toggle"  onclick></label>
+			<img src="Red_mini.png"><br>
+			<ul>
+				<li><a href="Главная.html"><img src="home_mini.png">&nbsp; Главная </a>
+				<li><a href="Галерея.html"><img src="camera_mini.png">&nbsp; Галерея </a>
+				<li><a href="Обо мне.html"><img src="man-3_mini.png">&nbsp; Обо мне </a>
+				<li><a href="Новости.html"><img src="news2_mini.png">&nbsp; Новости </a>
+				<li><a href="Регистрация.html"><img src="register_mini.png">&nbsp; Регистрация  </a>
+				<li><a href="Вход.html"><img src="door_mini.png">&nbsp; Вход </a>
+			</ul>
+		</nav>
+		</font>
+		<div class="wrapper_body">
+			 <div class="cbm_wrap ">
+				 <h1>Здравствуй, гость.</h1>
+					<div class="cat"><img src="Garfield11.png"></div>
+				 <p>Добро пожаловать на мой первый сайт. Прошу не оценивать его слишком строго.</p>
+				 <p>На этом сайте вы сможете просмотреть информацию обо мне, мои фотографии, новости, и многое другое.</p>
+				 <br />
+				 <table>
+					 <tr><p>Мои страницы в социальных сетях:</p>
+						 <div class="url">
+							 <td><a href="http://vk.com/id55665666" target="_blank"><div class="vk"><img src="vk_mini.png"></div></a></td>
+							 <td><a href="https://www.instagram.com/kazim_102/" target="_blank"><div class="vk"><img src="instagram_mini.png"></div></a></td>
+						 </div>
+					 </tr>
+				 </table>
+			 </div>
+		</div>
+		<div class="photo1">
+			<a href="Обо мне.html"><img src="photo12.png"></a>
+		</div>
+		<div class="photo">
+			<a href="Обо мне.html"><img src="photo1.png"></a>
+		</div>
+		 <div id="footer">&nbsp;&nbsp;&copy;&nbsp;&nbsp;2017 | Круглов Андрей </div>
+   </body>
+</html>
