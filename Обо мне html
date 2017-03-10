@@ -1,0 +1,132 @@
+<html>
+   <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+        <title>Сайт Круглова Андрея</title>			 
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="favicon_logo.ico">
+		<header>
+			<div class="logo"> 
+				<a href="Главная.html"><img src="stoplogo21.png"></a>
+			</div>	
+			<font face="Tahoma" size=4 color="black">
+			<div class="nav_big">
+				<nav>
+					<ul class="nav_big">
+						<li><a href="Главная.html">Главная</a></li>
+						<li><a href="Галерея.html">Галерея</a></li>
+						<li><a href="Обо мне.html">Обо мне</a></li>
+						<li><a href="Новости.html">Новости</a></li>
+						<li><a href="Регистрация.html">Регистрация</a></li>
+					</ul>
+				</nav>
+			</div>
+			</font>
+			<font face="Arial" size=3 color="black">
+				<div class="main">
+					<div class="login_password">
+						<label for="n">Логин:   </label>
+						<input type="text" style="background: #white; border-color: #ffffff; width: 175px; height: 20px; border-radius: 4px;" id="n" />
+					</div>
+					<div class="login_password">
+					   <label for="ln">Пароль:   </label>
+					   <input type="password" style="background: #white; border-color: #ffffff; width: 175px; height: 20px; border-radius: 4px;" id="ln" />
+					</div>
+				</div>
+				<div class="main3">
+					<div>
+						<a href="enter.php" title="Войти"><img src="entry6.png" alt="Войти" /></a>
+					</div>
+				</div>
+				<div class="main3_small">
+					<div>
+						<a href="Вход.html" title="Страница входа"><img src="entry6.png" alt="Войти" /></a>
+					</div>
+				</div>
+			</font>
+		</header>
+		<hr>		
+   </head>
+   <body>
+		<font face="Open Sans" size=3 ">
+		<input type="checkbox" id="nav-toggle" hidden>
+		<nav class="nav">
+			<label for="nav-toggle" class="nav-toggle" onclick></label> <img src="Red_mini.png"><br>
+			<ul>
+				<li><a href="Главная.html"><img src="home_mini.png">&nbsp; Главная </a>
+				<li><a href="Галерея.html"><img src="camera_mini.png">&nbsp; Галерея </a>
+				<li><a href="Обо мне.html"><img src="man-3_mini.png">&nbsp; Обо мне </a>
+				<li><a href="Новости.html"><img src="news2_mini.png">&nbsp; Новости </a>
+				<li><a href="Регистрация.html"><img src="register_mini.png">&nbsp; Регистрация  </a>
+				<li><a href="Вход.html"><img src="door_mini.png">&nbsp; Вход </a>
+			</ul>
+		</nav>
+		</font>
+		<div class="myself_body">
+			 <div class="myself_wrap ">
+			 <h1>
+				<div class="newtown_school">
+					<div class="scholl">
+						<div class="block_info2 ">
+						   <div class="number">
+							  <div class="num"> Смотреть </div>
+						   </div>
+						   <div class="content">
+							  <div class="text">
+								 <p class="name">Школа №75</p>
+								 <p>Та самая школа, в которой я учился 11 лет с 2005 по 2016 год. </p>
+							  </div>
+							  <img  class="text-img" src="scholl75_mini.jpg" alt="Audi">
+						   </div>
+						</div>
+					</div>
+					<div class="scholl">
+						<div class="block_info2 ">
+						   <div class="number">
+							  <div class="num"> Смотреть </div>
+						   </div>
+						   <div class="content">
+							  <div class="text">
+								 <p class="name">Новый город</p>
+								 <p>Микрорайон Новый город, в котором я живу. Только девятиэтажки и ничего больше.</p>
+							  </div>
+							  <img  class="text-img" src="newtown_mini.png" alt="Audi">
+						   </div>
+						</div>
+					</div>
+					<div class="scholl">
+						<div class="block_info2 ">
+						   <div class="number">
+							  <div class="num"> Смотреть </div>
+						   </div>
+						   <div class="content">
+							  <div class="text">
+								 <p class="name">УлГТУ</p>
+								 <p>Университет, поступил в 2016 году. </p>
+							  </div>
+							  <img  class="text-img" src="univer_mini.jpg" alt="Audi">
+						   </div>
+						</div>
+					</div>
+				</div>
+			</h1>
+			<div class="text_about">
+			 <p>Привет всем! Меня зовут Андрей Круглов.
+			 Я родился и живу в городе Ульяновск</p>
+			 <p>Окончил школу №75, на данный момент учись на первом курсе Ульяновского Государственного Технического Университета (УлГТУ) на факультете ФИСТ. Живу
+			 и учусь на разных берегах, поэтому с недавнего времени ненавижу маршрутки. Я любитель природы и всего, что с ней связано. именнно поэтому и меня много домашних животных, 
+			 в их числе: кот Пушок, черепаха Дуня и аквариумные рыбки(много, очень много)</p>
+			</div>
+			 <br />
+				<table>
+					<tr><p>Мои страницы в социальных сетях:</p>
+					<div class="url">
+						<td><a href="http://vk.com/id55665666" target="_blank"><div class="vk"><img src="vk_mini.png"></div></a></td>
+						<td><a href="https://www.instagram.com/kazim_102/" target="_blank"><div class="vk"><img src="instagram_mini.png"></div></a></td>
+					</div>
+					</tr>
+				</table>
+			 </div>
+		</div>
+		 <div id="footer">&nbsp;&nbsp;&copy;&nbsp;&nbsp;2017 | Круглов Андрей </div>
+   </body>
+</html>
