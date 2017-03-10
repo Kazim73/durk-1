@@ -1,0 +1,88 @@
+<html>
+   <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+        <title>Сайт Круглова Андрея</title>			 
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="favicon_logo.ico">
+		<header>
+			<div class="logo"> 
+				<a href="Главная.html"><img src="stoplogo21.png"></a>
+			</div>	
+			<font face="Tahoma" size=4 color="black">
+			<div class="nav_big">
+				<nav>
+					<ul class="nav_big">
+						<li><a href="Главная.html">Главная</a></li>
+						<li><a href="Галерея.html">Галерея</a></li>
+						<li><a href="Обо мне.html">Обо мне</a></li>
+						<li><a href="Новости.html">Новости</a></li>
+						<li><a href="Регистрация.html">Регистрация</a></li>
+					</ul>
+				</nav>
+			</div>
+			</font>
+			<font face="Arial" size=3 color="black">
+				<div class="main3">
+					<div>
+						<a href="Вход.html" title="Войти"><img src="entry6.png" alt="Войти" /></a>
+					</div>
+				</div>
+				<div class="main3_small">
+					<div>
+						<a href="Вход.html" title="Страница входа"><img src="entry6.png" alt="Войти" /></a>
+					</div>
+				</div>
+			</font>
+		</header>
+		<hr>		
+   </head>
+   <body>
+		<font face="Open Sans" size=3 ">
+		<input type="checkbox" id="nav-toggle" hidden>
+		<nav class="nav">
+			<label for="nav-toggle" class="nav-toggle" onclick></label> <img src="Red_mini.png"><br>
+			<ul>
+				<li><a href="Главная.html"><img src="home_mini.png">&nbsp; Главная </a>
+				<li><a href="Галерея.html"><img src="camera_mini.png">&nbsp; Галерея </a>
+				<li><a href="Обо мне.html"><img src="man-3_mini.png">&nbsp; Обо мне </a>
+				<li><a href="Новости.html"><img src="news2_mini.png">&nbsp; Новости </a>
+				<li><a href="Регистрация.html"><img src="register_mini.png">&nbsp; Регистрация  </a>
+				<li><a href="Вход.html"><img src="door_mini.png">&nbsp; Вход </a>
+			</ul>
+		</nav>
+		</font>
+		<div class="register">
+			<div id="register-form">
+				<h1>Авторизация</h1>
+				<fieldset>
+				<form action="login.php" method="post" name="l_form" >
+					<table>
+						<tr>
+							<td> &nbsp;Логин: </td>
+							<td>
+								<input type="text" name="l_username" required="required" />
+							</td>
+						</tr>
+						<tr>
+							<td> &nbsp;Пароль: </td>
+							<td>
+								<input type="password" name="l_password" required="required" />
+							</td>
+						</tr>
+						<tr>
+							<td> <img src="entry6.png"> </td> 
+							<td colspan="2">
+								<input type="submit" name="l_send" value="Войти" />
+							</td>
+						</tr>
+					</table>
+					<footer class="clearfix"> 
+				<p><span class="info">?</span><a href="Регистрация.html">Ещё не зарегистрировались?</a></p> 
+				</footer>
+				</form>
+				</fieldset>
+			</div>
+		</div>
+		 <div id="footer">&nbsp;&nbsp;&copy;&nbsp;&nbsp;2017 | Круглов Андрей </div>
+   </body>
+</html>
